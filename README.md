@@ -1,4 +1,4 @@
-# CapstoneProjectTemplate /* Replace this line with the title of your project */
+# Limitless Automation Possibilities
 
 ## **Summary**
 
@@ -6,18 +6,19 @@ Put a very high-level summary of the project.
 
 ## **Team Members**
 
-- Joe Black
-- Joe Pesci
-- Joe Dalton
+- Andrew Dickinson
+- Alex Hupe
+- William Gibson
+- Jacob Dye
+- Wesley Kring
 
 ## **Client Partner Information**
 
 ### *Company:*
-WHATEVER COMPANY or CORRESPONDENCE
+Blue Ridge Automation Inc.
 
 ### *People:*
-- Jane Fonda
-- Jane Lynch
+- Ben Furlani
 
 ## **Links**
 
