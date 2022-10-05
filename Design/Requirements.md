@@ -12,9 +12,9 @@
     <li>A user will be able to save the configration under a name of their choice.</li>
     <li>A list of configurations for the user will be saved in the database.</li>
     <li>The user shall be able to load a configuration that has been previously created.</li>
-    <li></li>
   </ul
 <h1>Nonfunctional Requirements</h1>
   <ul>
-    <li>The system shall load the instructions dynamically and quickly from the database</li>
+    <li>The system shall load the instructions dynamically and quickly from the database.</li>
+    <li>The configuration pane should be responsive and intuitive to use.</li>
    </ul
