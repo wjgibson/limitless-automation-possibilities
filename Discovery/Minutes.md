@@ -6,7 +6,6 @@
 
 ## Meeting End Time
 
-Whatever the start of the meeting was in **YYYY/MM/DD/hh:MM** format. Just enter data in this format. Nothing else.
 2022/09/29/18:05
 
 ## Location/Medium
