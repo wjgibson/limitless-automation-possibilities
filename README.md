@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-Put a very high-level summary of the project.
+This product will be a visual IDE for Limitless Automation Possibilities (LAP) that will be used by their clients to make development easier and more accessable. LAP IDE will have all of the required resources for an automation engineer to do their jobs quickly and effectively, with minimal training needed to use the software.
 
 ## **Team Members**
 
@@ -30,7 +30,5 @@ Blue Ridge Automation Inc.
 
 ## **Code Repositories**
 
-- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
-- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
 - Others if more.
 
