@@ -7,4 +7,5 @@
   <li>Requirements.md: Contains the known requirements (functional and not) of the LAP IDE> Will be updated frequently when new functionalities are found.</li>
   <li>TechStack.md: Contains our choices for the tech stack and the reasons for choosing them.</li>
   <li>UseCases.md: Contains the use cases for the LAP IDE. More may be added as development progresses.</li>
+  <li>Prototype.md: Contains a link to our figma prototype. May change after feedback</li>
 </ul>
