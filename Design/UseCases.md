@@ -4,10 +4,12 @@
 </ul>
 <h1>Use Cases</h1>
 <ul>
-  <li>[UC1] Create nodes that contains a step for a machine.</li>
-  <li>[UC2] Connect existing nodes together to make a series of steps.</li>
-  <li>[UC3] Add a configuration to the system.</li>
-  <li>[UC4] Remove nodes from the configuration.</li>
-  <li>[UC5] Save a configuration to the database.</li>
-  <li>[UC6] Load a configuration from the database.</li>
+  <li>[UC1] Select a configuration from the database to act as a container</li>
+  <li>[UC2] Select a type of node to browse with the side menu </li>
+  <li>[UC3] Drag sequences, steps, or control modules onto a workspace to create a node</li>
+  <li>[UC4] Connect existing nodes together to make a series of instructions.</li>
+  <li>[UC5] Add a project to the IDE.</li>
+  <li>[UC6] Remove nodes from the workspace.</li>
+  <li>[UC7] Login before accessing the IDE</li>
+  <li>[UC8] Download the project to a PLC</li>
 </ul>
