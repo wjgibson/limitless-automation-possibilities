@@ -4,12 +4,11 @@
 </ul>
 <h1>Use Cases</h1>
 <ul>
-<li>[UC1] As an automation engineer, I need to be able to select a configuration from the database to act as a container so that I can work under a certain configuration.
-<li>[UC2] As an automation engineer, I need to be able to select a type of node to browse with the side menu so that I can see the type of nodes available to use
-<li>[UC3] As an automation engineer, I need to be able to drag sequences, steps, or control modules into a workspace so that I can create a node
-<li>[UC4] As an automation engineer, I need to be able to connect existing nodes together with a line so that I can make a series of instructions
-<li>[UC5] As an automation engineer, I need to be able to add a project to the IDE, so that I can begin working on my desired program
-<li>[UC6] As an automation engineer, I need to be able to remove nodes from the workspace, so that I can edit the flow of the program
-<li>[UC7] As an automation engineer, I need to be able to login before accessing the IDE, so that others won’t edit my work
-<li>[UC8] As an automation engineer, I need to be able to download the Project to a PLC, so that I can test it before production
+<li>[UC1] Select a configuration from the database. Users: Automation Engineers. This is a use case because any sequence is under a certain configuration, so develpoment
+  is impossible without selecting a configuration. The user will first open the applicatoin, then select a configuration to edit. [BR2]
+<li>[UC2] Select a type of node to use. Users: Automation Engineers. This is a use case because there are several types of nodes that a user will be able to drag onto the workspace. These need to be organized so the system is easy to use. The user will select a configuration, then select a type of node to browse. [BR2]
+<li>[UC3] Drag sequences, steps, or control modules into a workspace so that I can create a node. Users: Automation Engineers. This is a use case because the entire system is based on a user dragging nodes into a workspace, and then connecting them together based on their types. The user will select a configuration, select a type of node to browse, then drag it onto the workspace. [BR2]
+<li>[UC4] Connect existing nodes together with a line. Users: Automation Engineers. This is a use case because users will need to able to connect nodes together to make a usable configuration. The user will select a configuration, then a type of node, then draw a line from one to the other. [BR2]
+<li>[UC5] Remove nodes from the workspace. Users: Automation Engineers. This is a use case because users will need to remove a node from the workspace in any normal use of the program. Mistakes must be forigveable. The user will first select a configuration, then a type of node, then add a node to the workspace, then remove it if they didn't mean to. [BR2]
+<li>[UC6] Login before accessing the IDE. This is a use case so others do not edit a user's work without their knowledge. The user will first attempt to navigate to the LAP viual IDE, but will first be redirected to login if they have not already done so. [BR2]
 </ul>
