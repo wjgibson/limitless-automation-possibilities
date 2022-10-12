@@ -26,8 +26,7 @@ Blue Ridge Automation Inc.
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
-- ... any other documents/links you see need
-
+- <a href="https://github.com/users/wjgibson/projects/1/views/2">Project Cards</a>
 ## **Code Repositories**
 
 - Others if more.
