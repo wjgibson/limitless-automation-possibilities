@@ -1,7 +1,7 @@
 <h1>Architecture</h1>
 This project will be a monolithic architecture as the project will be JS Frameworks with a database as well. It is a layered type of architecture since neighboring layers matter but the frontend can't talk to the database for example. 
 <h2>Drawing</h2>
-<img width="1616" alt="Architecture" src="https://user-images.githubusercontent.com/38050891/195405169-14cc289c-cb31-46f8-bf29-049eab3638ed.png">
+<img width="1616" alt="Architecture (1)" src="https://user-images.githubusercontent.com/38050891/195480600-a35757e1-e3e2-49b3-9860-fcba820d34ea.png">
 <h3>MS SQL Database</h3>
 Contains the data that will be used in the Node.js backend, relationships of ladder logic code to regular programming code. Given by the client. 
 <h3>Node.js</h3>
@@ -11,8 +11,6 @@ Takes MS SQL Data and creates each instruction of ladder logic in a looping fash
 Correctly identifies what item from the database is a sequence, a step, or a control module. 
 <h4>InstructLimits</h4>
 Nodes can only connect to certain items, so a check if capable is required. 
-<h4>DownloadtoPLC</h4>
-Eventually, after creating a configuration, the user will want to send it to a PLC machine. 
 <h4>LoginDetails</h4>
 Login to the system to protect the work done. 
 <h3>React Flow</h3>
