@@ -9,7 +9,7 @@ These configurations will later be written to a database that communicates with 
 
 ## Code Replication
 ### In order to run this app, you will need at minimum the following programs.
-NodeJS: https://nodejs.org/en/
+NodeJS: https://nodejs.org/en/<br>
 Any IDE (If needed, visual studio code is simple and will suffice): https://code.visualstudio.com/
 
 ### Steps to replicate using visual studio code
