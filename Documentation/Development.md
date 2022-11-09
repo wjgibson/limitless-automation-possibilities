@@ -4,7 +4,7 @@
 https://github.com/wjgibson/limitless-automation-possibilities-visual-IDE
 
 ## Tech Aspects
-This system is built with react and written in typescript. Through the use of a library called reactflow, nodes are able to be moved around and connected.
+This system is built with create-react-app and written with javascript. Through the use of a library called reactflow, nodes are able to be moved around and connected.
 These configurations will later be written to a database that communicates with a process entirely seperate from ours.
 
 ## Code Replication
