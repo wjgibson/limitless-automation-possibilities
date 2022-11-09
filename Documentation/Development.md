@@ -14,25 +14,34 @@ Any IDE (If needed, visual studio code is simple and will suffice): https://code
 
 ### Steps to replicate using visual studio code
 1: Navigate to the main page of the source code repository (link posted above) <br>
-2: Click the green drop down box labeled "Code" and copy (CTRL C) the link located there<br>
+2: Click the green drop down box labeled "Code" and copy (`CTRL C`) the link located there<br>
 3: Open visual studio code to the welcome screen and select "clone git repository"<br>
-4: In the bar that pops up at the top, paste (CTRL V) the link previously copied<br>
+4: In the bar that pops up at the top, paste (`CTRL V`) the link previously copied<br>
 5: Click "Select repository location" to accept the default folder location<br>
 6: Click "Open" on the resulting popup box<br>
-7: Enter the following key combination "CTRL ~" (Control tilde)<br>
+7: Enter the following key combination "`CTRL ~`" (Control tilde)<br>
 8: Enter the following commands<br>
-9: "npm install"<br>
-10: "npm start"<br>
+9: `npm install` This might take a few minutes as our testing suite is quite large, so don't be alarmed. Constant improvements are being made to decrease this loading time<br>
+10: `npm start`<br>
 11: Your computers local internet browser will open to the app
 
 ## Folder Structure
-Inside the app's folder, there are two sub-folders and some miscellaneous files. The "public" folder contains common assets used for the project and miscellaneous files created with the app
-The "src" folder contains the typescript source code required to run the app. The remaining files are used by node to download the dependencies for the app. There are no
-config files that the user must alter at this time.
+Inside the app's folder, there are three sub-folders and some miscellaneous files. 
+- The "cypress" folder contains the files used to test our app.
+- The "public" folder contains files created with create-react-app. These act as backup html pages in case the app doesn't load
+- The "src" folder contains to subfolders and one file:
+  - "app": contains the main react component to be rendered
+  - "elements": contains react elements that are implemented in the app's drag and drop flow component
+  - "index.js" is used by react to compile the app and load it in the DOM
+
+## Troubleshooting
+If app doesn't run correcttly, there are no logs currently set up. Here are the two most common errors we have encountered and their solutions.
+### `npm is not recognized as a command or commandlet...` 
+- This error comes from not having node installed. Navigate to nodejs's download page and install node according to the instructions provided. If node was recently installed, a computer restart may be required to add the binary to your PATH variables.
+### `npm start is not a script or executable...`
+- This error results from executing `npm start` before executing `npm install`. Make sure to do an `npm install` first, then try again.
 
 ## Running tests
-Running our apps test is simple. In the same console used to replicate the environment in visual studio code, simply type the following command: "npm test". This
-has to be done after an "npm install", explained in the steps prior. The console will prompt to select which tests to run, simply enter "a". 
-The results in the console will show you how many tests passed and how many faled as well as their names and reasons for failure if applicable.
+We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM.
 
 
