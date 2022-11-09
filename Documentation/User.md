@@ -4,7 +4,7 @@
 <h3>Input Node<h3>
 <p>
   The indicator for selection will not change when hovering over the sidebar item, 
-  however, click to grab the Input Node and the click can be released anywhere to the right of the this sidebar. When released, it creates input 
+  however, click to grab the Input Node and the click can be released anywhere to the left of the this sidebar. When released, it creates input 
 </p>
 ![Invalid Input](https://user-images.githubusercontent.com/38050891/200926319-9b110d80-2a85-4ce8-b4de-c9b2ba83cb88.png)
 
