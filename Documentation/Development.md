@@ -45,9 +45,9 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM.
 
 ## Replicating With Docker
-- Install Docker Desktop to your Operating System.
-- Clone the source reposititory linked [here](https://github.com/wjgibson/limitless-automation-possibilities/blob/main/Documentation/Development.md#source-code-repository).
-- Build the docker image by command line with `docker build -t lapide .`.
-- Run the image by command line with `docker run -d -p 3000:3000 --name node-app lapide`.
-- In a browser's address bar, type `localhost:3000` to see the result.
+- Install Docker Desktop to your Operating System
+- Clone the source reposititory linked [here](https://github.com/wjgibson/limitless-automation-possibilities/blob/main/Documentation/Development.md#source-code-repository)
+- Build the docker image by command line with `docker build -t lapide .`
+- Run the image by command line with `docker run -d -p 3000:3000 --name node-app lapide`
+- In a browser's address bar, type `localhost:3000` to see the result
 
