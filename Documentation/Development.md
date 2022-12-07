@@ -52,5 +52,5 @@ We have used cypress to test the react components of our app. To run the tests, 
 - Run the image by command line with `docker run -d -p 3000:3000 --name node-app lapide`
 - In a browser's address bar, type `localhost:3000` to see the result
 - Build the docker image by command line for the API repository with `docker build -t lapapi .`
-- Run the image by command line with `docker run -d -p 8080:8080 --name node-app2 lapapi`
+- Run the image by command line with `docker run -d -p 3001:3001 --name node-app2 lapapi`
 
