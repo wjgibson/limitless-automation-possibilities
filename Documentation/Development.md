@@ -1,6 +1,6 @@
 # Replicating the development environment
 
-## Source code repository
+## Source code repositories
 https://github.com/wjgibson/limitless-automation-possibilities-visual-IDE
 
 https://github.com/wjgibson/lap-visual-ide-API
@@ -47,8 +47,10 @@ We have used cypress to test the react components of our app. To run the tests, 
 
 ## Replicating via Docker
 - Install Docker Desktop to your Operating System
-- Clone the source reposititory linked [here](https://github.com/wjgibson/limitless-automation-possibilities/blob/main/Documentation/Development.md#source-code-repository)
-- Build the docker image by command line with `docker build -t lapide .`
+- Clone the source reposititories linked [here](https://github.com/wjgibson/limitless-automation-possibilities/blob/main/Documentation/Development.md#source-code-repository)
+- Build the docker image by command line for the main repository with `docker build -t lapide .`
 - Run the image by command line with `docker run -d -p 3000:3000 --name node-app lapide`
 - In a browser's address bar, type `localhost:3000` to see the result
+- Build the docker image by command line for the API repository with `docker build -t lapapi .`
+- Run the image by command line with `docker run -d -p 8080:8080 --name node-app2 lapapi`
 
