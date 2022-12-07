@@ -22,21 +22,18 @@ Wesley
 
 ## Objects Presented
 
-<ul>
-<li> The project in its current state
-<li> The documentation that we have for this iteration of the project
-<li> The things that we have planned for iteration 3
+* The project in its current state
+* The documentation that we have for this iteration of the project
+* The things that we have planned for iteration 3
 
 ## Topics Discussed
 
-<ul>
-<li> The state of the project
-<li> Look of the project
-<li> Need ways to display mroe data to the user
-<li> 
+* The state of the project
+* Look of the project
+* Need ways to display mroe data to the user 
 
 
 ## Things Clarified
-<ul>
-<li> The control module that is dragged on should share the same color and type as the previously configured node
-<li> Our .bat file is OK
+
+* The control module that is dragged on should share the same color and type as the previously configured node
+* Our .bat file is OK
