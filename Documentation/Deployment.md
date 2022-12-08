@@ -8,7 +8,7 @@
 - The project's source code can be found here
   - Visual IDE: https://github.com/wjgibson/limitless-automation-possibilities-visual-IDE/tree/1.0.0
   - API: https://github.com/wjgibson/lap-visual-ide-API
-- Upon donwloading the zip file, unzip to a location of your preference.
+- Upon donwloading the zip files, unzip each to a location of your preference.
 
 ## Start/Stop
 
@@ -49,10 +49,13 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 - This error results from executing `npm start` before executing `npm install`. Make sure to do an `npm install` first, then try again.
 ### `Uncaught TypeError: Can not read properties of undefined...`.
 - This error would show up in the developer tools of your console after you try to start the application
+### `Error 400: Bad Request`
+- This error would show up in the developer tools of yout browser after you try to start the application
+- To fix, verify that you setup the postgres server with the password: `password`. If not, the files `queries.js` and `destructiveQueries.js` contain the login info for the database, so change them there.
 
 ## Errors
 - There is no error logging in the current build of the LAP Visual IDE, but errors can be found in the developer tools console.
-- This can be accessed in most browser with the shortcut `CTRL+SHIFT+I`.
+- This can be accessed in most browsers with the shortcut `CTRL+SHIFT+I`.
 
 ## Potential Disasters
 - The most error prone step in this installation is the command execution when running the app. `npm install` must always be ran before `npm start` or the app will fail to compile.
