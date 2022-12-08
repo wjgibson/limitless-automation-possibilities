@@ -34,21 +34,27 @@ Repeat most steps for both repositories
 14: `node API.js` Starts the API running on the port 3001.
 
 ## Folder Structure
-Inside the app's folder, there are three sub-folders and some miscellaneous files. 
+Inside the main app's folder, there are three sub-folders and some miscellaneous files. 
 - The "cypress" folder contains the files used to test our app.
 - The "public" folder contains files created with create-react-app. These act as backup html pages in case the app doesn't load
-- The "src" folder contains to subfolders and one file:
+- The "src" folder contains three subfolders and one file:
   - "app": contains the main react component to be rendered
   - "elements": contains react elements that are implemented in the app's drag and drop flow component
-  - "index.js" is used by react to compile the app and load it in the DOM
-
+  - "resources": contains logic for custom nodes and helps the API
+  - "index.js" is used by react to compile the app and load it in the DOM<br>
+Inside the API's folder, there are three important files. 
+- "API.js" is the main file for working with the API doing the GET and POST requests.
+- "destructiveQueries.js" is a file that does updating of a configuration like the save/restore shown.
+- "queries.js" is a file that grabs the data of configurations to pick from.
+ 
 ## Troubleshooting
 If app doesn't run correcttly, there are no logs currently set up. Here are the two most common errors we have encountered and their solutions.
 ### `npm is not recognized as a command or commandlet...` 
 - This error comes from not having node installed. Navigate to nodejs's download page and install node according to the instructions provided. If node was recently installed, a computer restart may be required to add the binary to your PATH variables.
 ### `npm start is not a script or executable...`
 - This error results from executing `npm start` before executing `npm install`. Make sure to do an `npm install` first, then try again.
-
+### `Module not found: Error: Can't resolve 'antd'`
+- If this is shown on the browser, type into the terminal `npm install antd` as elements use antd to make the project look nicer.
 ## Running tests
 We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM.
 
