@@ -16,15 +16,16 @@
 
 - The project API needs a database in order to run so we need to download postgress
   - https://www.postgresql.org/download/
+- Install with default settings
 - While setting up the application make sure that when prompted to create a password you make it `password`
 - Finish setting up postgress and download our mock database dump
-  - Database Dump: 
+  - Database Dump: https://github.com/wjgibson/lap-visual-ide-API/blob/master/dump-postgres
+- Navigate to the file location in the command line and run this command `psql -U -f dump-postgres.sql`
+- The database should now be ready to be used by the API
 
 ### Starting the API
 
-- psql -U -f backupfile.sql
 - Navigate to the location you unzipped the source code to in the file explorer.
-- install postgres with default settings
 - Right click anywhere in the unzipped folder and select `open in terminal`.
 - execute the command `npm install`
 - execute the command `node API .js`.
@@ -56,3 +57,4 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 ## Potential Disasters
 - The most error prone step in this installation is the command execution when running the app. `npm install` must always be ran before `npm start` or the app will fail to compile.
 - Within the source code, the most critical file is `DnDFlow.js`. This contains the main app's code that loads in the browser. If making changes to this file, constantly make sure that the app will still compile.
+- The program hinges on having a lot of services running while using it because it is made for web use. If the progam is not running as expected the first place to look would be the API
