@@ -8,12 +8,16 @@ https://github.com/wjgibson/lap-visual-ide-API
 This system is built with create-react-app and written with javascript. Through the use of a library called reactflow, nodes are able to be moved around and connected.
 These configurations will later be written to a database that communicates with a process entirely seperate from ours.
 
+A test database is used due to reconfiguring of their datatabase as the client is changing the type of database they are on, so all the values must be updated to reflect that. Otherwise, LAP would be stuck early on due to that blockage. 
+
 ## Code Replication
 ### In order to run this app, you will need at minimum the following programs.
 NodeJS: https://nodejs.org/en/<br>
 Any IDE (If needed, visual studio code is simple and will suffice): https://code.visualstudio.com/
 
 ### Steps to replicate using visual studio code
+Repeat most steps for both repositories
+
 1: Navigate to the main page of the source code repository (link posted above) <br>
 2: Click the green drop down box labeled "Code" and copy (`CTRL C`) the link located there<br>
 3: Open visual studio code to the welcome screen and select "clone git repository"<br>
@@ -21,10 +25,13 @@ Any IDE (If needed, visual studio code is simple and will suffice): https://code
 5: Click "Select repository location" to accept the default folder location<br>
 6: Click "Open" on the resulting popup box<br>
 7: Enter the following key combination "`CTRL ~`" (Control tilde)<br>
-8: Enter the following commands<br>
+8: Enter the following commands for the main repository <br>
 9: `npm install` This might take a few minutes as our testing suite is quite large, so don't be alarmed. Constant improvements are being made to decrease this loading time<br>
 10: `npm start`<br>
-11: Your computers local internet browser will open to the app
+11: Your computers local internet browser will open to the app<br>
+12: Enter the following commands for the API repository <br>
+13: `npm install` This might take some time.<br>
+14: `node API.js` Starts the API running on the port 3001.
 
 ## Folder Structure
 Inside the app's folder, there are three sub-folders and some miscellaneous files. 
