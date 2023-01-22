@@ -70,3 +70,6 @@ To test the API, type `npm test` into the terminal inside the main repository.
 - Build the docker image by command line for the API repository with `docker build -t lapapi .`
 - Run the image by command line with `docker run -d -p 3001:3001 --name node-app2 lapapi`
 
+##Linting
+- Use the command `npm install eslint` to enable the use of the next command. 
+- Use the command `npx eslint "src/**" --fix` to lint all files which should format all small issues. This also shows bigger issues that automatically could not be solved.
