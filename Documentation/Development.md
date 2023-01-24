@@ -72,4 +72,5 @@ To test the API, type `npm test` into the terminal inside the main repository.
 
 ## Linting
 - Use the command `npm install eslint` to enable the use of the next command. 
-- Use the command `npx eslint "src/**" --fix` to lint all files which should format all small issues. This also shows bigger issues that automatically could not be solved.
+- Use the command `npx eslint "src/**" "test/**" "cypress.config.js" "cypress/component/**" "cypress/support/**" --fix` in the main repository to lint all files which should automatically format all small issues. This also shows bigger issues that automatically could not be solved.
+- - Use the command `npx eslint "API.js" "destructiveCalls.js" "non-destructiveCalls.js" "queryFile.js"  --fix` in the API repository to lint all files which should automatically format all small issues. This also shows bigger issues that automatically could not be solved.
