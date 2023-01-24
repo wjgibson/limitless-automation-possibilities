@@ -71,7 +71,7 @@ To test the API, type `npm test` into the terminal inside the main repository.
 - Run the image by command line with `docker run -d -p 3001:3001 --name node-app2 lapapi`
 
 ## Linting
-- Use the command `npm install --save-dev lint-staged` to allow for linting of staged commits.
+- Use the command `npm install --save-dev lint-staged` to allow for linting of staged commits. TBA
 - Use the command `npm install eslint` to enable the use of the next command. 
 - Use the command `npx eslint "src/**" "test/**" "cypress.config.js" "cypress/component/**" "cypress/support/**" --fix` in the main repository to lint all files which should automatically format all small issues. This also shows bigger issues that automatically could not be solved.
 - Use the command `npx eslint "API.js" "destructiveCalls.js" "non-destructiveCalls.js" "queryFile.js"  --fix` in the API repository to lint all files which should automatically format all small issues. This also shows bigger issues that automatically could not be solved.
