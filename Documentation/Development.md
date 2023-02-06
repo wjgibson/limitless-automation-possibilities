@@ -13,7 +13,8 @@ A test database is used due to reconfiguring of their datatabase as the client i
 ## Code Replication
 ### In order to run this app, you will need at minimum the following programs.
 NodeJS: https://nodejs.org/en/<br>
-Any IDE (If needed, visual studio code is simple and will suffice): https://code.visualstudio.com/
+Any IDE (If needed, visual studio code is simple and will suffice): https://code.visualstudio.com/ <br>
+Postgres: https://www.postgresql.org/download/
 
 ### Steps to replicate using visual studio code
 Repeat most steps for both repositories
@@ -31,7 +32,13 @@ Repeat most steps for both repositories
 11: Your computers local internet browser will open to the app<br>
 12: Enter the following commands for the API repository <br>
 13: `npm install` This might take some time.<br>
-14: `node API.js` Starts the API running on the port 3001.
+14: `node API.js` Starts the API running on the port 3001. <br>
+15: The project API needs a database in order to run so we need to download postgress<br>
+16: Install with default settings <br>
+17: While setting up the application make sure that when prompted to create a password you make it `password` <br>
+18: Finish setting up postgress and download our mock database dump at https://github.com/wjgibson/lap-visual-ide-API/blob/master/dump-postgres <br>
+19: Navigate to the file location in the command line and run this command psql -U -f dump-postgres.sql <br>
+20: The database should now be ready to be used by the API <br>
 
 ## Folder Structure
 Inside the main app's folder, there are three sub-folders and some miscellaneous files. 
