@@ -59,5 +59,5 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 
 ## Potential Disasters
 - The most error prone step in this installation is the command execution when running the app. `npm install` must always be ran before `npm start` or the app will fail to compile.
-- Within the source code, the most critical file is `DnDFlow.js`. This contains the main app's code that loads in the browser. If making changes to this file, constantly make sure that the app will still compile.
+- Within the source code, the most critical file is `MainPage.js`. This contains the main app's code that loads in the browser. If making changes to this file, constantly make sure that the app will still compile.
 - The program hinges on having a lot of services running while using it because it is made for web use. If the progam is not running as expected the first place to look would be the API
