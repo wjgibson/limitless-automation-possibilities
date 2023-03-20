@@ -50,10 +50,12 @@ Inside the main app's folder, there are three sub-folders and some miscellaneous
   - "utilities": contains logic for custom nodes and helps the API
   - "index.js" is used by react to compile the app and load it in the DOM 
 
-Inside the API's folder, there are three important files. 
+Inside the API's folder, there are five important files. 
 - "API.js" is the main file for working with the API doing the GET and POST requests.
-- "destructiveQueries.js" is a file that does updating of a configuration like the save/restore shown.
-- "queries.js" is a file that grabs the data of configurations to pick from.
+- "destructiveCalls.js" is a file that wraps all destructive calls for API.js.
+- "non-destructiveCalls.js" is a file that wraps all non-destructive calls for API.js.
+- "queries.js" is the file that contains all of the queries for the application, written in the PLpgSQL language.
+- "iteration_4_lap_dump.sql" is the postgres database dump that is required for the application to run.
  
 ## Troubleshooting
 If app doesn't run correcttly, there are no logs currently set up. Here are the two most common errors we have encountered and their solutions.
@@ -62,11 +64,11 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 ### `npm start is not a script or executable...`
 - This error results from executing `npm start` before executing `npm install`. Make sure to do an `npm install` first, then try again.
 ### `Module not found: Error: Can't resolve 'antd'`
-- If this is shown on the browser, type into the terminal `npm install antd` as elements use antd to make the project look nicer.
+- If this is shown on the browser, type into the terminal `npm install antd` as elements use antd to display the application.
+### `Error: uuid not found in the topics table`
+- If the app crashes and this is showm, it is because you need to make an entry into the topics table with the displayed UUID. Name it whatever you would like.
 ## Running tests
 We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM.
-
-To test the API, type `npm test` into the terminal inside the main repository.
 
 ## Replicating via Docker
 - Install Docker Desktop to your Operating System
