@@ -36,8 +36,8 @@ Repeat most steps for both repositories
 15: The project API needs a database in order to run so we need to download postgress<br>
 16: Install with default settings <br>
 17: While setting up the application make sure that when prompted to create a password you make it `password` <br>
-18: Finish setting up postgress and download our mock database dump at https://github.com/wjgibson/lap-visual-ide-API/blob/master/dump-LAP_PG-202211231651.sql<br>
-19: Navigate to the file location in the command line and run this command psql -U -f dump-postgres.sql <br>
+18: Finish setting up postgress and download our mock database dump at https://github.com/wjgibson/lap-visual-ide-API/blob/master/iteration_4_lap_dump.sql<br>
+19: Navigate to the file location in the command line and run this command `psql -U -f iteration_4_lap_dump.sql` <br>
 20: The database should now be ready to be used by the API <br>
 
 ## Folder Structure
@@ -47,7 +47,7 @@ Inside the main app's folder, there are three sub-folders and some miscellaneous
 - The "src" folder contains three subfolders and one file:
   - "app": contains the main react component to be rendered
   - "elements": contains react elements that are implemented in the app's drag and drop flow component
-  - "resources": contains logic for custom nodes and helps the API
+  - "utilities": contains logic for custom nodes and helps the API
   - "index.js" is used by react to compile the app and load it in the DOM 
 
 Inside the API's folder, there are three important files. 
