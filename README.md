@@ -28,6 +28,6 @@ Blue Ridge Automation Inc.
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
 - <a href="https://github.com/users/wjgibson/projects/1/views/2">Project Cards</a>
 ## **Code Repositories**
-- <a href="https://github.com/wjgibson/limitless-automation-possibilities-visual-IDE-Source-Code/releases/tag/3.0.0">LAP Visual IDE Source Code Repo v3.0.0</a>
-- <a href="https://github.com/wjgibson/lap-visual-ide-API/releases/tag/3.0.0">LAP Visual IDE API Source Code Repo v3.0.0</a>
+- <a href="https://github.com/wjgibson/limitless-automation-possibilities-visual-IDE-Source-Code/releases/tag/4.0.0">LAP Visual IDE Source Code Repo v4.0.0</a>
+- <a href="https://github.com/wjgibson/lap-visual-ide-API/releases/tag/4.0.0">LAP Visual IDE API Source Code Repo v4.0.0</a>
 
