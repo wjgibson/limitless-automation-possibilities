@@ -1,4 +1,4 @@
-![LAP Iter 3](https://user-images.githubusercontent.com/89548120/217130034-817d7fd7-a768-4e3e-90ed-0b091bf4ea4c.PNG)
+![Screenshot 2023-03-20 153744](https://user-images.githubusercontent.com/89548120/226448580-09ada1cf-1dbd-4cd5-84ec-626c351064e3.png)
 
 <h1>1: The Sidebar</h1>
 <h2>This sidebar is interactable with 2 draggable items able to be dropped into the main workspace</h2>
@@ -15,7 +15,11 @@ The indicator for selection will not change when hovering over a sidebar item. F
 
 Each node has a select menu to select the nodes type (respective to sequences and control modules)
 
-![dropdown](https://user-images.githubusercontent.com/89548120/217132917-120c2696-3d70-49ee-a2ad-d16ac3f8d003.PNG)
+![Screenshot 2023-03-20 155003](https://user-images.githubusercontent.com/89548120/226450305-c242fd92-373a-4f93-a69f-4f9e31f02478.png)
+
+Each node has a color picker that allows the user to color code their nodes.
+
+![Screenshot 2023-03-20 154151](https://user-images.githubusercontent.com/89548120/226448763-cbb63ff6-67ad-420f-8b93-2e5b82bb78d3.png)
 
 <h1>2:Save/Delete</h1>
 <h2>Save and delete affect the workspace. The workspace can be empty but that is not the intended use for the save feature. </h2>
@@ -24,8 +28,6 @@ Each node has a select menu to select the nodes type (respective to sequences an
 Clicking delete will prompt to confirm the deletion then remove that configuration from the workspace and the tab system
 
 ![LAP Iter 3 (7)](https://user-images.githubusercontent.com/89548120/217131361-8bf824b5-9df0-4edd-a545-0e70edb996d2.PNG)
-
-
 
 <p> After clicking save, the current set of nodes on the workspace can be changed however seems fit. To restore to some previous point that was saved, select that item in the configuration menu. </p> 
 
@@ -69,8 +71,20 @@ Clicking delete will prompt to confirm the deletion then remove that configurati
 
 ![image](https://user-images.githubusercontent.com/77747670/206333157-65ad6c38-e92f-4243-9c24-4a069a40cb39.png)
 
+<h1>5: Step Configuration</h1>
+<h2>The top right corner of every sequence node contains the menu to configure a sequence's respective steps.</h2>
 
-<h1>5: Configurations Menu</h1>
+![Screenshot 2023-03-20 153832](https://user-images.githubusercontent.com/89548120/226449257-815fb0e2-20f7-41a4-8a1c-404045aabbca.png)
+
+<p>Upon clicking this menu, a modal for step configuration will pop up. This feature is currently used for mocking and demonstration. More features are planned in the future.</P>
+
+![Screenshot 2023-03-20 153916](https://user-images.githubusercontent.com/89548120/226449496-63c4d54f-1231-4a9a-9364-a28dfe37a891.png)
+
+<p>A user can add and remove the differnet kind of step nodes with the menu in the top left. Clicking the buttons will spawn a new node in the workspace.</p>
+
+![Screenshot 2023-03-20 154047](https://user-images.githubusercontent.com/89548120/226449691-700951b4-05e3-4082-873d-387e62106a2b.png)
+
+<h1>6: Configurations Menu</h1>
 <h2>The configurations menu deals with saving, creating, and pulling configurations</h2>
 
 <p>Image of the Configuration Menu</p>
