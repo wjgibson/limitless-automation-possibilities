@@ -19,8 +19,8 @@
 - Install with default settings
 - While setting up the application make sure that when prompted to create a password you make it `password`
 - Finish setting up postgress and download our mock database dump
-  - Database Dump: https://github.com/wjgibson/lap-visual-ide-API/blob/master/iteration_4_lap_dump.sql
-- Navigate to the file location in the command line and run this command `psql -U -f iteration_4_lap_dump.sql`
+  - Database Dump: https://github.com/wjgibson/lap-visual-ide-API/blob/master/Final_LAP_Dump.sql
+- Navigate to the file location in the command line and run this command `psql -U -f Final_LAP_Dump.sql`
 - The database should now be ready to be used by the API
 
 ### Starting the API
