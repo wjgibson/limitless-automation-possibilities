@@ -70,7 +70,7 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 ### `Error: uuid not found in the topics table`
 - If the app crashes and this is showm, it is because you need to make an entry into the topics table with the displayed UUID. Name it whatever you would like.
 ## Running tests
-We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM. To run the tests for the API, by command line do `npm test`. 
+We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM. To run the tests for the API that uses jest, by command line do `npm test`. 
 
 ## Replicating via Docker
 - Install Docker Desktop to your Operating System
