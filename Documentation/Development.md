@@ -36,26 +36,28 @@ Repeat most steps for both repositories
 15: The project API needs a database in order to run so we need to download postgress<br>
 16: Install with default settings <br>
 17: While setting up the application make sure that when prompted to create a password you make it `password` <br>
-18: Finish setting up postgress and download our mock database dump at https://github.com/wjgibson/lap-visual-ide-API/blob/master/iteration_4_lap_dump.sql<br>
-19: Navigate to the file location in the command line and run this command `psql -U -f iteration_4_lap_dump.sql` <br>
+18: Finish setting up postgress and download our mock database dump at https://github.com/wjgibson/lap-visual-ide-API/blob/preprod/Final_LAP_Dump.sql<br>
+19: Navigate to the file location in the command line and run this command `psql -U -f Final_LAP_Dump.sql` <br>
 20: The database should now be ready to be used by the API <br>
 
 ## Folder Structure
 Inside the main app's folder, there are three sub-folders and some miscellaneous files. 
 - The "cypress" folder contains the files used to test our app.
-- The "public" folder contains files created with create-react-app. These act as backup html pages in case the app doesn't load
-- The "src" folder contains three subfolders and one file:
+- The "public" folder contains files created with create-react-app. These act as backup html pages in case the app doesn't load.
+- The "src" folder contains four subfolders and one file:
   - "app": contains the main react component to be rendered
+  - "assets": contains an image file for the login page
   - "elements": contains react elements that are implemented in the app's drag and drop flow component
   - "utilities": contains logic for custom nodes and helps the API
   - "index.js" is used by react to compile the app and load it in the DOM 
 
-Inside the API's folder, there are five important files. 
+Inside the API's folder, there are five important files and one important folder.
+- The "testing" folder is a folder that contains the files to test the API portion of our project.
 - "API.js" is the main file for working with the API doing the GET and POST requests.
 - "destructiveCalls.js" is a file that wraps all destructive calls for API.js.
 - "non-destructiveCalls.js" is a file that wraps all non-destructive calls for API.js.
 - "queries.js" is the file that contains all of the queries for the application, written in the PLpgSQL language.
-- "iteration_4_lap_dump.sql" is the postgres database dump that is required for the application to run.
+- "Final_LAP_Dump.sql" is the postgres database dump that is required for the application to run.
  
 ## Troubleshooting
 If app doesn't run correcttly, there are no logs currently set up. Here are the two most common errors we have encountered and their solutions.
@@ -68,7 +70,7 @@ If app doesn't run correcttly, there are no logs currently set up. Here are the 
 ### `Error: uuid not found in the topics table`
 - If the app crashes and this is showm, it is because you need to make an entry into the topics table with the displayed UUID. Name it whatever you would like.
 ## Running tests
-We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM.
+We have used cypress to test the react components of our app. To run the tests, simply execute the command `npx cypress run --component`. This takes a few seconds and results in all of our tests running in the command line. For a detailed run of the tests in a simulated DOM environment, execute `npx cypress open`and select "component testing" to view our testing classes. Select one of the components and see them open in the simulated DOM. To run the tests for the API, by command line do `npm test`. 
 
 ## Replicating via Docker
 - Install Docker Desktop to your Operating System
