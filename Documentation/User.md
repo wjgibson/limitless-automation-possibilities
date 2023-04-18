@@ -84,6 +84,15 @@ Clicking delete will prompt to confirm the deletion then remove that configurati
 
 ![Screenshot 2023-03-20 154047](https://user-images.githubusercontent.com/89548120/226449691-700951b4-05e3-4082-873d-387e62106a2b.png)
 
+A user can select the step type to change the amount of connections available
+
+![Screenshot 2023-04-17 205232](https://user-images.githubusercontent.com/89548120/232642527-f30c798d-6249-4867-82ca-0a0848ec7f4f.png)
+
+A user can click the top right menu for a step to access it's dynamic configuration screen.
+This screen populates based on the selected step type and parameter details.
+
+![Screenshot 2023-04-17 205304](https://user-images.githubusercontent.com/89548120/232642645-0b4f7e1d-cbb5-4a90-bdf1-5deef791fc7d.png)
+
 <h1>6: Configurations Menu</h1>
 <h2>The configurations menu deals with saving, creating, and pulling configurations</h2>
 
@@ -99,7 +108,31 @@ Clicking delete will prompt to confirm the deletion then remove that configurati
   
 ![saving](https://user-images.githubusercontent.com/89548120/217132624-5af45e4b-5a0f-4fe4-b5cc-6c7960023dd5.PNG)
 
+# 7: Labels and Organization
 
-
-
+ ## Nodes and lines can be renamed and colored.
+ 
+A user can double click the title of a node to rename it
+ 
+![Screenshot 2023-04-17 205007](https://user-images.githubusercontent.com/89548120/232642719-81649ae1-fa85-435f-8199-b35a47ecd61f.png)
+ 
+A user can double click any line to give it a label
+ 
+![Screenshot 2023-04-17 205112](https://user-images.githubusercontent.com/89548120/232642774-38a897bc-b5c2-42f7-99f9-08ad81863fa3.png)
+ 
+A user can right click any line to change it's color
+ 
+![Screenshot 2023-04-17 205132](https://user-images.githubusercontent.com/89548120/232642809-6a6e8e8f-c0a5-4e9d-b8e8-dbcfaa2048fe.png)
+ 
+# Settings
+ 
+## The connection settings can be configured and changed for the database
+ 
+A user can click the top right settings button to access the database settings menu
+ 
+![Screenshot 2023-04-17 210624](https://user-images.githubusercontent.com/89548120/232642966-462afc1a-05e3-4b23-ac9c-01af8e0e002e.png)
+ 
+ A user can set the parameters for the database connection
+ 
+![Screenshot 2023-04-17 205333](https://user-images.githubusercontent.com/89548120/232643039-68215229-442c-475a-9b21-145b99aa018c.png)
   
